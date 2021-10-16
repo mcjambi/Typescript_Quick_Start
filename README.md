@@ -2,7 +2,7 @@
 
 Love NodeJS and Typescript? Use this repo to start quickly, and saving your time.
 
-##How to run?##
+--How to run?--
 
 To install nodeJS, go to https://nodejs.org/en/ and download lastest NodeJS version and install to your machine.
 To install Typescript, go to your CMD/Terminal and type: `npm install -g typescript`
@@ -33,6 +33,7 @@ To launch your app: Use `npm run serve`, and if you made any change to your file
 ##What are dist and src folder?##
 
 `dist` is the folder where webpack or Typescript saving file after compile.
+
 `src` is the folder contain all your source code
 
 
