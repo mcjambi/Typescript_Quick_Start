@@ -1,0 +1,30 @@
+{
+  "name": "typescript-start",
+  "version": "1.0.0",
+  "description": "Quick start for typescript and webpack with nodemon",
+  "main": "dist/webpack/index.js",
+  "scripts": {
+    "start": "node dist/webpack/index.js",
+    "build": "webpack --config webpack.prod.ts",
+    "dev": "webpack --config webpack.common.ts",
+    "def": "tsc -w",
+    "serve": "nodemon app.ts"
+  },
+  "author": "JamViet.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.15.3",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^16.9.6",
+    "nodemon": "^2.0.12",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
