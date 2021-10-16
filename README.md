@@ -1,6 +1,6 @@
 # Typescript Quick Start
 
-Love NodeJS and Typescript? Use this repo to start quickly, and saving your time.
+Love NodeJS and Typescript? Use this repo to start quickly, and saving your time. If you think my Repo is useful, go to https://www.jamviet.com/hoc-typescript.html and give me a comment :D
 
 ## How to run?
 
