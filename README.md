@@ -19,7 +19,7 @@ Okay! Now you have many options to start:
 
 `npm run build` to build your app using webpack
 
-`npm run dev` to build your app in development environment but using webpack
+`npm run dev` to build your app in development environment but using webpack, most of the deverloper time you will use this command. Any change to your source code in `src` folder will be re-compiled by webpack.
 
 `npm run def` to build your app in development environment using typescript (withour webpack) and watch any change in your file.
 
@@ -27,14 +27,18 @@ Okay! Now you have many options to start:
 
 
 
-To launch your app: Use `npm run serve`, and if you made any change to your file, run `npm run dev` if you like webpack, or run `npm run def` if you prefer Typescript compile tool.
+To launch your app: Use `npm run serve` command, or `npm start` to run index.js file in `dist` folder, `npm run serve` will watch all your file and restart if need. 
+
+If you made any change to your file, run `npm run dev` if you like webpack, or run `npm run def` if you prefer Typescript compile tool. 
+
+In deverlopment time, you should open 2 windows, one run `npm run dev` and other run ` npm run serve`, one for compile and one for lauching...
 
 
 ## What are dist and src folder?
 
-`dist` is the folder where webpack or Typescript saving file after compile.
+`dist` is the folder where webpack or Typescript saving file after compiled.
 
-`src` is the folder contain all your source code
+`src` is the folder contain all your source code.
 
 
 ## Why Webpack in TypeScript Quick Start?
